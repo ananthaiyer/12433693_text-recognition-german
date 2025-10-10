@@ -1,7 +1,7 @@
 # 12433693_text-recognition-german
 
 ## Overview
-The goal of this project is to build and fine-tune an existing Optical Character Recognition (OCR) model to recognize both English and German printed text. The base model used will be pretrained architecture (TrOCR) that will be adapted to handle German-soecific secial characters such as **ä, ö, ü, and ß**. Finally, the project's goal is to translate these german words to english through a Docker-contained application.
+The goal of this project is to build and fine-tune an existing Optical Character Recognition (OCR) model to recognize both English and German printed text. The base model used will be pretrained architecture (TrOCR) that will be adapted to handle German-soecific secial characters such as **ä, ö, ü, and ß**. Finally, the project's goal is to translate these german words to english through an application contained in Docker.
 
 ## Motivation
 As an international student constantly trying to improve their German language skills, it is really important to have a tool that simply recognizes a picture of a word and translates it. Of course, ChatGPT does it already, but it also requires a really good data connection, and my goal is to create a model that works without the internet. 
