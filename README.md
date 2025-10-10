@@ -1,6 +1,8 @@
 # 12433693_text-recognition-german
 
 ## Overview
+**Topic: Text Recognition**
+
 The goal of this project is to build and fine-tune an existing Optical Character Recognition (OCR) model capable of recognizing both English and German printed text. The base model used will be the pretrained **TrOCR** architecture, which will be adapted to handle German-specific special characters such as **ä, ö, ü, and ß**. Finally, the project aims to translate these German words into English through an application packaged inside a Docker container.
 
 ## Motivation
@@ -27,5 +29,9 @@ The project reuses the existing TrOCR neural network and fine-tunes it to improv
 | Improvements | Experiment with data augmentation and vocabulary extensions, retrain and re-evaluate | 15 hours |
 | Application Development | Build a simple Docker-based demo app with translation and optional spell-checking | 10 hours |
 | Final Report and Presentation | Write final report and create presentation | 8 hours |
+
+## References
+https://ojs.aaai.org/index.php/AAAI/article/view/26538
+https://cs.stanford.edu/~acoates/papers/coatesetal_icdar_2011.pdf
 
 
