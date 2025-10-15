@@ -40,9 +40,6 @@ The project reuses the existing TrOCR neural network and fine-tunes it to improv
 2. Li, M., Lv, T., Chen, J., Cui, L., Lu, Y., Florencio, D., Zhang, C., Li, Z., & Wei, F. (2021).  
    *TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models.*  
    Microsoft Research & Beihang University.  
-   arXiv: [2109.10282](https://ojs.aaai.org/index.php/AAAI/article/view/26538)
-
-https://ojs.aaai.org/index.php/AAAI/article/view/26538
-https://cs.stanford.edu/~acoates/papers/coatesetal_icdar_2011.pdf
+   arXiv: [PDF link](https://ojs.aaai.org/index.php/AAAI/article/view/26538)
 
 
