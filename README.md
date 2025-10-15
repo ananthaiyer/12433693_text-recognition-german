@@ -35,12 +35,12 @@ The project reuses the existing TrOCR neural network and fine-tunes it to improv
 1. Coates, A., Carpenter, B., Case, C., Satheesh, S., Suresh, B., Wang, T., Wu, D. J., & Ng, A. Y. (2011).  
    *Text Detection and Character Recognition in Scene Images with Unsupervised Feature Learning.*  
    Computer Science Department, Stanford University.  
-   [PDF link (Stanford)](https://cs.stanford.edu/~acoates/papers/coatesleearnocr.pdf)
+   [PDF link (Stanford)](https://cs.stanford.edu/~acoates/papers/coatesetal_icdar_2011.pdf)
 
 2. Li, M., Lv, T., Chen, J., Cui, L., Lu, Y., Florencio, D., Zhang, C., Li, Z., & Wei, F. (2021).  
    *TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models.*  
    Microsoft Research & Beihang University.  
-   arXiv: [2109.10282](https://arxiv.org/abs/2109.10282)
+   arXiv: [2109.10282](https://ojs.aaai.org/index.php/AAAI/article/view/26538)
 
 https://ojs.aaai.org/index.php/AAAI/article/view/26538
 https://cs.stanford.edu/~acoates/papers/coatesetal_icdar_2011.pdf
