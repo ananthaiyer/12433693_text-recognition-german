@@ -15,7 +15,7 @@ The project reuses the existing TrOCR neural network and fine-tunes it to improv
 
 ## Dataset
 - **Primary Dataset**: The **[IIIT-5K Word Dataset](https://www.kaggle.com/datasets/prathmeshzade/iiit5k-words) (Mishra et al., BMVC 2012)**, containing ~2,000 training and ~3,000 testing cropped word images from real-world scenes. Each image is annotated with a ground-truth word label. This dataset is widely used for OCR benchmarking.
-- **Additional Synthetic Data**: Automatically generated German word images, including special characters like 'ä, ö, ü, ß' (~5000 words). This list is currently in JSON format and will be synthetically converted into images for fine-tuning the model.
+- **Additional Synthetic Data**: Automatically generated German word images (**[source](https://github.com/Jonny-exe/German-Words-Library/blob/master/German-words-5000-words.json), including special characters like 'ä, ö, ü, ß' (~5000 words). This list is currently in JSON format and will be synthetically converted into images for fine-tuning the model.
 - **Test Split**: The official IIIT-5K test set will be used for English evaluation, and a small portion of the synthetic German dataset will be reserved for multilingual testing.
 
 ## Work Breakdown Structure
