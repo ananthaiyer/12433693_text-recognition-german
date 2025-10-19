@@ -6,10 +6,10 @@
 The goal of this project is to build and fine-tune an existing Optical Character Recognition (OCR) model capable of recognizing both English and German printed text. The base model used will be the pretrained **TrOCR** architecture, which will be adapted to handle German-specific special characters such as **ä, ö, ü, and ß**. Finally, the project aims to translate these German words into English through an application packaged inside a Docker container.
 
 ## Motivation
-As an international student, continually improving my German language skills, having a lightweight, offline tool that can recognise a picture of a word and translate it into English would be extremely helpful. Although existing tools (like ChatGPT) can already perform this task better, they require an active internet connection. My goal is to create a model that can perform optical recognition and translation without needing the internet.
+As an international student who is continually improving my German language skills, having a lightweight, offline tool that can recognise a picture of a word and translate it into English would be extremely helpful. Although existing tools (like ChatGPT) can perform this task better, they require an active internet connection. My goal is to create a model that can perform optical recognition and translation without needing the internet.
 
 ## Project Type: **Bring your own method**
-The project reuses the existing TrOCR neural network and fine-tunes it to improve its capability in recognising texts that include German characters. This improvement will be achieved using a combination of an existing English OCR dataset and a synthetically generated German dataset. To improve final results, a few modifications will be done, such as augmentation tweaks to the train dataset and vocabulary extension to include special characters. To further enhance results, several modifications will be applies, such as:
+The project reuses the existing TrOCR neural network and fine-tunes it to improve its capability in recognising texts that include German characters. This improvement will be achieved using a combination of an existing English OCR dataset and a synthetically generated German dataset. To further enhance results, several modifications will be applied, such as:
 - Augmentation tweaks: to improve results through distortions.
 - Vocabulary extension: to include German-specific characters.
 
