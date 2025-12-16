@@ -1,0 +1,8 @@
+torch
+transformers
+numpy
+pandas
+pillow
+jiwer
+pytest
+ipython
