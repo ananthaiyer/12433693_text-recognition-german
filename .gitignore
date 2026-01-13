@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Pytest
+.pytest_cache/
+
+# Model artifacts 
+src/artifacts/
+*.safetensors
+artifacts.gz
+
+# Zips
+*.zip
+
+# Docker
+*.log

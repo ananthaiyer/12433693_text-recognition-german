@@ -6,3 +6,8 @@ pillow
 jiwer
 pytest
 ipython
+torchvision
+streamlit
+rapidfuzz
+argostranslate
+sentencepiece

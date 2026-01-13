@@ -123,7 +123,8 @@ All tests pass successfully.
 
 ## Conclusion
 This project demonstrates that a pretrained OCR model can be successfully adapted to German text using limited additional data and targeted fine-tuning. Synthetic data generation, careful training configuration, and evaluation using appropriate metrics were key to improving performance. However, the amount of synthetic data is relatively low, and increasing the number of generated images could further improve performance.
- 
+
+Run application: docker run --rm -p 8501:8501 german-ocr-demo 
 
 ## References
 
